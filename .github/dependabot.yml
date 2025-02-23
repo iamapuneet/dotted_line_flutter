@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Dart (Flutter) Dependencies
+  - package-ecosystem: "pub"
+    directory: "/" # Location of pubspec.yaml
+    schedule:
+      interval: "monthly"
+
+  # GitHub Actions Dependencies (Optional)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
