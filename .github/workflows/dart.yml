@@ -21,10 +21,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Create dist directory
+        run: mkdir dist
+
       - name: Create tar.gz archive
         run: |
-          mkdir dist
-          tar -czvf dist/dotted_line_flutter.tar.gz -C "${{ github.workspace }}" .
+          tar --exclude=dist -czvf dist/dotted_line_flutter.tar.gz -C "${{ github.workspace }}" .
 
       - name: Create GitHub Release
         id: create_release
@@ -36,7 +38,6 @@ jobs:
           release_name: Release v0.0.${{ github.run_number }}
           draft: false
           makeLatest: true
-
           body: |
             🎉 **Dotted Line Flutter - Release v0.0.${{ github.run_number }}** 🎉
 
