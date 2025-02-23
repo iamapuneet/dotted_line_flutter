@@ -17,6 +17,6 @@ Examples of unacceptable behavior include:
 ## Enforcement
 Project maintainers have the right to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that do not align with this Code of Conduct.
 
-Instances of abusive behavior may be reported by contacting **[your-email@example.com]**.
+Instances of abusive behavior may be reported by contacting **[puneetsharma5525@gmail.com]**.
 
 By participating, you agree to abide by this Code of Conduct.
