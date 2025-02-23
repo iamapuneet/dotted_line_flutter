@@ -5,7 +5,7 @@ repository: https://github.com/iamapuneet/dotted_line_flutter.git
 issue_tracker: https://github.com/iamapuneet/dotted_line_flutter/issues
 homepage: https://github.com/iamapuneet/dotted_line_flutter?tab=readme-ov-file#dotted_line_flutter
 documentation: https://pub.dev/documentation/dotted_line_flutter/latest
-topics: [dotted_line, dotted, line_flutter,  dotted_line_flutter]
+topics: [dotted-line, dotted, line-flutter, dotted-line-flutter]
 #funding: [https://github.com/sponsors/realpuneetsharam]
 
 environment:
